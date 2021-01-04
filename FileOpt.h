@@ -5,9 +5,8 @@ class CFile {
 public:
 	CFile();
 	~CFile();
-
-private:
-
+	virtual void infile() = 0;
+	virtual void outfile() = 0;
 };
 
 #endif //__FILEOPT__

@@ -21,9 +21,15 @@
     <ClCompile Include="FileOpt.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CourseOpt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FileOpt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CourseOpt.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

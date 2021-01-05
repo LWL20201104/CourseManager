@@ -81,10 +81,10 @@ void CCourseOpt::addCourse() {
 
 //2.删除课程
 void CCourseOpt::deleteCourse() {
-	std::cout << "添加哪天的课程?" << std::endl;
+	std::cout << "删除哪天的课程?" << std::endl;
 	int dayNum = 0;
 	std::cin >> dayNum;
-	std::cout << "添加哪节课程?" << std::endl;
+	std::cout << "删除哪节课程?" << std::endl;
 	int courseNum = 0;
 	std::cin >> courseNum;
 	if (dayNum < 1 || dayNum > 7 || courseNum < 1 || courseNum > 12)
